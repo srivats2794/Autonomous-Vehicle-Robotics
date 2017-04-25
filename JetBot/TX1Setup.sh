@@ -109,7 +109,7 @@ cd ~/catkin_ws
 catkin_make && source devel/setup.sh
 
 #Before starting with ROS, you might want to remove OpenCV4Tegra if you had flashed that from JetPack, and install OpenCV 3.1 instead as it is the default for ROS Kinetic.
-#Now to configuring time zone, is for OpenCV installation. Comment it out if you want to continue with OpenCV4Tegra
+#Comment it out if you want to continue with OpenCV4Tegra
 
 #Uninstalling OpenCV4Tegra
 sudo apt-get purge libopencv4tegra-dev libopencv4tegra
